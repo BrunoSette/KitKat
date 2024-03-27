@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "KitKat";
+  src: url("/font/KittyKatt.ttf") format("truetype");
+}
+
+body {
+  background: linear-gradient(to right, #ee9ca7, #ffdde1);
+}
+
+h1 {
+  font-family: "KitKat", fallback-fonts, sans-serif;
+}
+
+main {
+  text-align: center;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+}
+
+main p {
+  text-align: center;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+img {
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+  background-color: red;
+}
+
+.footer-section {
+  width: 30%;
+  color: white;
+}
+
+.footer-logo {
+  max-width: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
